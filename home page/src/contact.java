@@ -26,21 +26,66 @@ public class contact extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jLabel2 = new javax.swing.JLabel();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        jTextArea2 = new javax.swing.JTextArea();
+        jButton1 = new javax.swing.JButton();
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/contact-us.png"))); // NOI18N
+        jLabel2.setText("jLabel2");
+
+        jTextArea2.setColumns(20);
+        jTextArea2.setRows(5);
+        jTextArea2.setText("Support & Feedback\nIf you need help, please contact us. To share product feedback on our products, please visit our community here.\n\nPress Inquiries\nFor press inquiries, please email press@stackoverflow.com.\nStack Overflow Business Solutions\n\nTalent\nSource, attract, and recruit technical talent on the platform 50 million developers trust to solve their coding problems.\n\nRequest a Demo\nUS: +1 (212)232-3232 9am–5pm U.S. Eastern Time\nUK: +44 800 048 8419 9am–5pm GMT\nEnterprise\nOnboard faster, reduce tribal knowledge, and speed up development with your own private instance of Dizzy Minds's Q&A platform.\n\nContact Us\nGenerate awareness and leads for your brand and products across Dizzy Minds’s Network of Q&A sites.\n\nTalk to an Expert\nInsights\nHarness the wealth of our developer knowledge to make better business decisions.\n\n\n\n\nLearn More\nLegal Questions and Requests for User Information\n\nIf you believe that content residing or accessible on Stack Exchange infringes a copyright, please send a notice of copyright infringement\n according to the instructions for reporting copyright infringement. For any other legal issues, or if you are a member of law enforcement requesting\n information about Stack Exchange users, please see the full instructions for contacting the legal team.\n\nlegal@stackoverflow.com\nOffices\n\n\nNew York (HQ)\n110 William Street\n28th Floor\nNew York, NY 10038\n\nLondon\nBentima House\n168-172 Old Street\nLondon, EC1V 9BP\n\nDenver\n1660 Lincoln Street\n24th Floor\nDenver, CO 80264");
+        jScrollPane2.setViewportView(jTextArea2);
+
+        jButton1.setText("HOME");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(32, 32, 32)
+                        .addComponent(jButton1)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 804, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(36, 36, 36)
+                        .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 1232, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(2111, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 188, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jButton1)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 489, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(536, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+        home h=new home();
+        h.setVisible(true);
+        (this).setVisible(false);
+    }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -78,5 +123,9 @@ public class contact extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton jButton1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JTextArea jTextArea2;
     // End of variables declaration//GEN-END:variables
 }

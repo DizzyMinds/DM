@@ -23,13 +23,72 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <EmptySpace min="0" pref="400" max="32767" attributes="0"/>
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jLabel2" min="-2" pref="804" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                      <Component id="jScrollPane2" min="-2" pref="1232" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="2111" max="32767" attributes="0"/>
+          </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <EmptySpace min="0" pref="300" max="32767" attributes="0"/>
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel2" min="-2" pref="188" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane2" min="-2" pref="489" max="-2" attributes="0"/>
+              <EmptySpace pref="536" max="32767" attributes="0"/>
+          </Group>
       </Group>
     </DimensionLayout>
   </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/contact-us.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="jLabel2"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea2">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="Support &amp; Feedback&#xa;If you need help, please contact us. To share product feedback on our products, please visit our community here.&#xa;&#xa;Press Inquiries&#xa;For press inquiries, please email press@stackoverflow.com.&#xa;Stack Overflow Business Solutions&#xa;&#xa;Talent&#xa;Source, attract, and recruit technical talent on the platform 50 million developers trust to solve their coding problems.&#xa;&#xa;Request a Demo&#xa;US: +1 (212)232-3232 9am&#x2013;5pm U.S. Eastern Time&#xa;UK: +44 800 048 8419 9am&#x2013;5pm GMT&#xa;Enterprise&#xa;Onboard faster, reduce tribal knowledge, and speed up development with your own private instance of Dizzy Minds&apos;s Q&amp;A platform.&#xa;&#xa;Contact Us&#xa;Generate awareness and leads for your brand and products across Dizzy Minds&#x2019;s Network of Q&amp;A sites.&#xa;&#xa;Talk to an Expert&#xa;Insights&#xa;Harness the wealth of our developer knowledge to make better business decisions.&#xa;&#xa;&#xa;&#xa;&#xa;Learn More&#xa;Legal Questions and Requests for User Information&#xa;&#xa;If you believe that content residing or accessible on Stack Exchange infringes a copyright, please send a notice of copyright infringement&#xa; according to the instructions for reporting copyright infringement. For any other legal issues, or if you are a member of law enforcement requesting&#xa; information about Stack Exchange users, please see the full instructions for contacting the legal team.&#xa;&#xa;legal@stackoverflow.com&#xa;Offices&#xa;&#xa;&#xa;New York (HQ)&#xa;110 William Street&#xa;28th Floor&#xa;New York, NY 10038&#xa;&#xa;London&#xa;Bentima House&#xa;168-172 Old Street&#xa;London, EC1V 9BP&#xa;&#xa;Denver&#xa;1660 Lincoln Street&#xa;24th Floor&#xa;Denver, CO 80264"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="HOME"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
 </Form>
